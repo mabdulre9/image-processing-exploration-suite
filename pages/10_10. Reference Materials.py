@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Reference Materials")
 st.title("Reference Materials")
-st.write("Download and **extract the zip files** below to access the lab manuals, images, lecture slides and books used in this course (EE418F).")
+st.warning("Starting download may take upto 5 minutes. Please be patient. Download and **extract the zip files** below to access the lab manuals, images, lecture slides and books used in this course (EE418F).")
 
 pdf_path = "docs/lab_manuals.zip"  # relative or absolute path
 
