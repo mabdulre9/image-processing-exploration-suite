@@ -70,3 +70,7 @@ pip install numpy opencv-python matplotlib streamlit
 streamlit run app.py
 ```
 
+## License
+
+This project is intended for **academic and educational use only**.
+
