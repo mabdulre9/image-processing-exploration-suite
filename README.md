@@ -1,5 +1,7 @@
 # Image Processing Exploration Suite
 
+## 🌐 Live Demo: https://image-processing-exploration-suite.streamlit.app/
+
 ## Overview
 
 **Image Processing Exploration Suite** is an interactive web-based application developed using **Streamlit** that allows users to explore and visualize fundamental and advanced **Digital Image Processing (DIP)** techniques.
@@ -45,17 +47,26 @@ The application is organized into multiple modules accessible via the sidebar:
 
 - **Python**
 - **Streamlit** – Interactive web framework  
-- **OpenCV (Headless)** – Image processing operations  
+- **OpenCV** – Image processing operations  
 - **NumPy** – Numerical computations  
 - **Matplotlib** – Visualization  
 
 ---
 
 ## Installation and Local Setup
-
-Follow the steps below to run the project locally:
+Follow the steps below to run the project locally or use it live on  https://image-processing-exploration-suite.streamlit.app/
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/mabdulre9/Image-Processing-Exploration-Suite.git
 cd Image-Processing-Exploration-Suite
+```
+### 2. Install Dependencies
+```bash
+pip install numpy opencv-python matplotlib streamlit
+```
+### 3. Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
